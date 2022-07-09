@@ -7,7 +7,7 @@ CFLAGS   += -std=c99 -pedantic -Wall -Wextra
 LDFLAGS  ?=
 LDLIBS    = $(LDFLAGS) -lxcb -lxcb-keysyms
 
-PREFIX    ?= /usr/local
+PREFIX    ?= $(HOME)/.local
 BINPREFIX ?= $(PREFIX)/bin
 MANPREFIX ?= $(PREFIX)/share/man
 DOCPREFIX ?= $(PREFIX)/share/doc/$(OUT)
